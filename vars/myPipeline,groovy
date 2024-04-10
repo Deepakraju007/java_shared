@@ -1,5 +1,5 @@
 def call() {
-pipeline {
+    pipeline {
     agent any
     tools {
         maven 'maven3' 
@@ -47,7 +47,7 @@ pipeline {
       }
     }
 }
-}
+
 //       stage('Deploy on k8s') {    
 //         steps {
 //           script{
@@ -59,3 +59,4 @@ pipeline {
 //       }
 //     }
 // }
+}
